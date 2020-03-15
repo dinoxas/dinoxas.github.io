@@ -1,0 +1,23 @@
+- name: HTML5/CSS3
+  percentage: 95
+  color: info
+
+- name: JavaScript
+  percentage: 90
+  color: info
+
+- name: React
+  percentage: 70
+  color: info
+
+- name: Redux
+  percentage: 70
+  color: info
+
+- name: jQuery
+  percentage: 90
+  color: info
+
+- name: Photoshop
+  percentage: 50
+  color: info
