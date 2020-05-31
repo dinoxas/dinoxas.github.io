@@ -1,19 +1,19 @@
-- title: Frontend Developer - Macmillan Cancer Support, London
+- title: Front End Developer - Macmillan Cancer Support, London
   from: 2014
   to: 2019
-  description: HTML5, CSS3, LESS, SASS, JavaScript, jQuery, Grunt, Gulp, Webpack, BackboneJS, React, GIT, Responsive Web Design, Web Accessibility, Email Templates, .NET, Cross-Browser Compatibility
+  description: HTML5, CSS3, LESS, SASS, JavaScript, jQuery, React, Redux, GraphQL, Grunt, Gulp, Webpack, BackboneJS, GIT, Email Templates, .NET, Cross-Browser Compatibility, Responsive Web Design, Web Accessibility
 
-- title: JS Developer - Burberry, London
+- title: Interactive Developer - Burberry, London
   from: 2013
   to: 2014
-  description: HTML5, CSS3, JavaScript, BackboneJS, jQuery, Grunt, GIT, Jasmine, Mobile First Design, Responsive Web Design, Cross-Browser Compatibility
+  description: HTML5, CSS3, JavaScript, BackboneJS, UnderscoreJS, jQuery, Grunt, GIT, Jasmine, Mobile First Design
 
-- title: UI Developer - Crate Enterprises, London
+- title: UI Developer - Crate Enterprises (Runpath Digital), London
   from: 2012
   to: 2013
   description: HTML5, CSS3, LESS, SASS, Bootstrap, JavaScript, jQuery, KnockoutJS, Responsive Web Design, .NET, Email Templates, Web Accessibility, Cross-Browser Compatibility
 
-- title: Frontend Developer - Rank Group, London
+- title: Front End Developer - Rank Group, London
   from: 2010
   to: 2012
   description: HTML5, CSS3, JavaScript, jQuery, Email Templates, SVN, .NET, Cross-Browser Compatibility
@@ -23,7 +23,7 @@
   to: 2010
   description: HTML, CSS, JavaScript, jQuery, XSLT, Cross-Browser Compatibility
 
-- title: Student/Intern Web Developer - Activate, London
+- title: Intern Web Developer - Activate, London
   from: 2007
   to: 2008
   description: 1 year internship as part of my university course

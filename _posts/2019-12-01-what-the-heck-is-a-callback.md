@@ -1,7 +1,7 @@
 ---
 title: What the heck is a Callback?
 tags: [JavaScript, Nodejs, Web Development]
-style: fill
+style: border
 color: danger
 description: Learn and understand the basics of callbacks in just 6 minutes with easy examples.
 ---
@@ -23,10 +23,10 @@ Source: [Brandon Morelli](https://codeburst.io/javascript-what-the-heck-is-a-cal
 For one very important reason — JavaScript is an event driven language. This means that instead of waiting for a response before moving on, JavaScript will keep executing while listening for other events. Lets look at a basic example:
 
 ```javascript
-function first(){
+function first() {
   console.log(1);
 }
-function second(){
+function second() {
   console.log(2);
 }
 first();
@@ -45,13 +45,13 @@ All good so far.
 But what if function `first` contains some sort of code that can’t be executed immediately? For example, an API request where we have to send the request then wait for a response? To simulate this action, were going to use `setTimeout` which is a JavaScript function that calls a function after a set amount of time. We’ll delay our function for 500 milliseconds to simulate an API request. Our new code will look like this:
 
 ```javascript
-function first(){
+function first() {
   // Simulate a code delay
-  setTimeout( function(){
+  setTimeout(function () {
     console.log(1);
-  }, 500 );
+  }, 500);
 }
-function second(){
+function second() {
   console.log(2);
 }
 first();
@@ -100,7 +100,7 @@ function doHomework(subject, callback) {
   callback();
 }
 
-doHomework('math', function() {
+doHomework('math', function () {
   alert('Finished my homework');
 });
 ```
@@ -114,7 +114,7 @@ function doHomework(subject, callback) {
   alert(`Starting my ${subject} homework.`);
   callback();
 }
-function alertFinished(){
+function alertFinished() {
   alert('Finished my homework');
 }
 doHomework('math', alertFinished);
@@ -127,13 +127,13 @@ This result of this example is exactly the same as the previous example, but the
 Last week I published an article on how to Create a Twitter Bot in 38 lines of code. The only reason the code in that article works is because of Twitters API. When you make requests to an API, you have to wait for the response before you can act on that response. This is a wonderful example of a real-world callback. Here’s what the request looks like:
 
 ```javascript
-T.get('search/tweets', params, function(err, data, response) {
-  if(!err){
+T.get('search/tweets', params, function (err, data, response) {
+  if (!err) {
     // This is where the magic will happen
   } else {
     console.log(err);
   }
-})
+});
 ```
 
 - `T.get` simply means we are making a get request to Twitter

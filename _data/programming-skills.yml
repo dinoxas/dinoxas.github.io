@@ -1,27 +1,15 @@
 - name: HTML5/CSS3
   percentage: 95
-  color: default
+  color: info
 
 - name: JavaScript
   percentage: 90
-  color: default
+  color: info
 
 - name: React
-  percentage: 70
-  color: default
-
-- name: Redux
-  percentage: 70
-  color: default
+  percentage: 90
+  color: info
 
 - name: jQuery
   percentage: 90
-  color: default
-
-- name: Photoshop
-  percentage: 40
-  color: default
-
-- name: Grunt/Gulp/Webpack
-  percentage: 60
-  color: default
+  color: info
