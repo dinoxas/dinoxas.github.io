@@ -1,15 +1,15 @@
-- name: HTML5/CSS3
-  percentage: 95
-  color: info
-
-- name: JavaScript
+- name: HTML5 & CSS3(LESS/SASS)
   percentage: 90
-  color: info
+  color: secondary
+
+- name: JavaScript (ES5-ES8)
+  percentage: 90
+  color: secondary
 
 - name: React
-  percentage: 90
-  color: info
+  percentage: 85
+  color: secondary
 
 - name: jQuery
-  percentage: 90
-  color: info
+  percentage: 85
+  color: secondary
