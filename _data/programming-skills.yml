@@ -1,15 +1,23 @@
-- name: HTML5 & CSS3(LESS/SASS)
-  percentage: 90
+- name: HTML & CSS(LESS/SASS)
+  percentage: 100
   color: secondary
 
-- name: JavaScript (ES5-ES8)
-  percentage: 90
+- name: JavaScript
+  percentage: 100
+  color: secondary
+
+- name: TypeScript
+  percentage: 80
   color: secondary
 
 - name: React
-  percentage: 85
+  percentage: 90
+  color: secondary
+
+- name: Jest & React Testing Library
+  percentage: 80
   color: secondary
 
 - name: jQuery
-  percentage: 85
+  percentage: 80
   color: secondary

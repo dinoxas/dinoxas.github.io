@@ -1,8 +1,8 @@
 ### Site Settings ###
 title: Home
 description: >-
-  "I turn coffee :coffee: into code,
-  use tabs over spaces
+  "I turn images into code,
+  use spaces over tabs
   and never broke live websites."
 baseurl: "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository: dinoxas/dinoxas.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
